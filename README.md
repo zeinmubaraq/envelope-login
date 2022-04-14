@@ -1,34 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Feedback 01
 
-## Getting Started
+Cons:
 
-First, run the development server:
+- Sudah menggunakan [Storybook](https://storybook.js.org/) namun hanya sampai initiate saja.
+- Belum ada test untuk unit/functional test component.
+- Tampilan belum responsive.
+- Harus menambah kerapian code.
+- Struktur folder untuk Component harus lebih rapi lagi.
+- Belum menggunakan [Nx](https://nx.dev/) untuk setting project.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Pros:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Commit lumayan rapi.
+- Terdapat API dummy untuk login.
+- Sudah menggunakan Typescript.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Feedback 02
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Cons:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Approach component-nya kurang tepat \( cuma ada LoginForm \).
+- Storybook baru initiate saja, belum ada integrasi ke componentnya.
+- Fundamental CSS nya masih agak kurang, masih banyak CSS yang redundant sebenarnya scr
+  functionality.
+- Belum menggunakan [Nx](https://nx.dev/) untuk setting project.
 
-## Learn More
+Pros:
 
-To learn more about Next.js, take a look at the following resources:
+- Lumayan bisa menggunakan [Tailwindcss](https://tailwindcss.com/).
+- Lumayan bisa [Next.js](https://nextjs.org/).
+- CSS style sudah lumayan rapi.
+- Sudah menggunakan [Prettier](https://prettier.io/).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Conclusion
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Dengan adanya feedback ini maka akan di jadikan sebagai bahan belajar khususnya untuk saya pribadi
+untuk memperbaiki segala kekuarang agar dan untuk meningkatkan skills untuk kesempatan yang akan
+datang.
